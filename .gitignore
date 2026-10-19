@@ -1,0 +1,19 @@
+# Foundry build artifacts & cache
+out/
+cache/
+broadcast/
+
+# Dependencies
+lib/
+node_modules/
+
+# Environment variables (CRITICAL: Never commit real private keys)
+.env
+.env.local
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
